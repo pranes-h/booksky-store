@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <h1>Notes</h1>
+    </div>
+    <div class="container">
+        <div class="bookcon">
+            <h1>Harry potter</h1>
+            <h5>wilaims</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, illum. Repellat molestias minus numquam
+                illum quod excepturi praesentium eligendi deserunt? Omnis saepe adipisci, recusandae incidunt doloremque
+                modi earum veritatis ullam?
+            </p>
+            <button onclick="deletebook(event)">delete</button>
+        </div>
+    </div>
+    <div class="popup"></div>
+    <div class="popupbox">
+        <h2>Add book</h2>
+        <form>
+            <input type="text" placeholder="book title" id="book-title">
+            <input type="text=" placeholder="bookauthor" id="book-auth">
+            <textarea placeholder="description" id="book-desc"></textarea>
+            <button id="add-book">ADD</button>
+            <button id="cancel-popup">CANCEL</button>
+        </form>
+    </div>
+    <button id="addpop">+</button>
+
+</body>
+
+</html>
